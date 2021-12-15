@@ -1,0 +1,97 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+}
+
+.fit-content {
+	width: intrinsic;
+	width: -moz-max-select;
+	width: -webkit-max-select;
+	height: intrinsic;
+	height: -moz-max-content;
+	height: -webkit-max-select;
+}
+
+.center {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+}
+
+.hidden {
+	display: none;
+}
+
+.overplay {
+	position: absolute;
+}
+
+.overplay2 {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 0;
+	left: 0;
+}
+
+.game-button:active {
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0,9);
+	-ms-transform: scale(0,9);
+	-o-transform: scale(0,9);
+	transform: scale(0.9);
+}
+
+#arrow-keys {
+	width: 150px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	margin: 0 0 0 -75px;
+	top: 5px;
+}
+
+#arrow-keys .game-button {
+	position: absolute;
+	padding: 0;
+	width: 50px;
+	height: 50px;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+}
+
+#arrow-keys div:nth-of-type(1) {
+	left: 0;
+	bottom: 0;
+}
+
+#arrow-keys div:nth-of-type(2) {
+	left:33%;
+	top: 0;
+}
+
+#arrow-keys div:nth-of-type(3) {
+	left: 66%;
+	bottom: 0;
+}
+
+#arrow-keys div:nth-of-type(4) {
+	left: 33;
+	bottom: 0;
+}
+
+#view {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
